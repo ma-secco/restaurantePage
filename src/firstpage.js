@@ -1,0 +1,9 @@
+const functionPage = () => {
+
+}
+
+
+
+
+
+export {functionPage }

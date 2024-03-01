@@ -3,3 +3,4 @@
 // you do not have to make this look too fancy. 
 // It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
+import {functionPage} from './firstpage';
