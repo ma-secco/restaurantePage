@@ -15,6 +15,7 @@ function about () {
 
     const paragraphAbout = document.createElement('p');
     paragraphAbout.innerText = "Descrição breve do restaurante"
+    
 
 
 }
