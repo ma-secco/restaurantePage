@@ -4,3 +4,5 @@
 // It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
 import {functionPage} from './firstpage';
+
+functionPage ();

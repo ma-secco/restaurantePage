@@ -2,6 +2,7 @@ const contentDiv = document.querySelector('#content')
 
 const functionPage = () => {
 
+    const aboutSection = about()
 }
 
 function about () {
@@ -15,7 +16,7 @@ function about () {
 
     const paragraphAbout = document.createElement('p');
     paragraphAbout.innerText = "Descrição breve do restaurante"
-    
+
 
 
 }
