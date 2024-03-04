@@ -59,7 +59,7 @@ function contact() {
     contentDiv.appendChild(section);
 
     const titleContact = document.createElement('h2');
-    titleAbout.innerText = "Contato";
+    titleContact.innerText = "Contato";
     section.appendChild(titleContact);
 
     const paragraphContact = document.createElement('p');
