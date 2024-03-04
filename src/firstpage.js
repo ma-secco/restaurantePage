@@ -3,6 +3,7 @@ const contentDiv = document.querySelector('#content');
 const functionPage = () => {
     about();
     menu();
+    contact()
 }
 
 function about() {
@@ -51,4 +52,45 @@ function menu() {
     const pratoUm = paragraphAbout('prato um', "descrição prato", 150);
     const pratoDois = paragraphAbout('prato dois', 'descrição prato', 180)
 }
+
+function contact() {
+    const section = document.createElement('section');
+    section.setAttribute('id', 'contato');
+    contentDiv.appendChild(section);
+
+    const titleContact = document.createElement('h2');
+    titleAbout.innerText = "Contato";
+    section.appendChild(titleContact);
+
+    const paragraphContact = document.createElement('p');
+    paragraphAbout.innerText = "Entre em contato conosco";
+    section.appendChild(paragraphContact);
+
+    const contactList = document.createElement('ul');
+    contactList.classList = "contact-list"
+
+    const createListOption = () => {
+        const ul = document.createElement('ul');
+    
+        const addOption = (tipo, valor) => {
+            const li = document.createElement('li');
+            li.innerHTML = `<strong>${tipo}:</strong> ${valor}`;
+            ul.appendChild(li);
+        };
+    
+        return {
+            addOption,
+            render: () => ul
+        };
+    };
+
+    const addOptionList = createListOption();
+
+    addOptionList.addOption("Whatsapp", "número whatsapp");
+    addOptionList.addOption("Instagram", "instagram");
+    addOptionList.addOption("Telefone", "número telefone");
+    addOptionList.addOption("Enedereço", "endereço");
+}
+
+
 export { functionPage };
