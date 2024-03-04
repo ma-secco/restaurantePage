@@ -80,7 +80,8 @@ function contact() {
     
         return {
             addOption,
-            render: () => ul
+            render: () => ul,
+            
         };
     };
 
@@ -90,6 +91,9 @@ function contact() {
     addOptionList.addOption("Instagram", "instagram");
     addOptionList.addOption("Telefone", "número telefone");
     addOptionList.addOption("Enedereço", "endereço");
+
+    section.appendChild(addOptionList.render())
+
 }
 
 
