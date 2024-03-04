@@ -47,5 +47,8 @@ function menu() {
 
         return div
     }
+
+    const pratoUm = paragraphAbout('prato um', "descrição prato", 150);
+    const pratoDois = paragraphAbout('prato dois', 'descrição prato', 180)
 }
 export { functionPage };
