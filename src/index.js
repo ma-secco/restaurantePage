@@ -5,4 +5,4 @@
 
 import {functionPage} from 'firstpage.js';
 
-functionPage ();
+const FunctionPageStart = functionPage ();
