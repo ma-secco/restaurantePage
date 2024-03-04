@@ -1,1 +1,1 @@
-(()=>{"use strict";document.querySelector("#content")})();
+(()=>{"use strict";const e=document.querySelector("#content");!function(){const t=document.createElement("section");t.setAttribute("id","sobre"),e.appendChild(t),document.createElement("h2").innerText="Sobre o restaurante",document.createElement("p").innerText="Descrição breve do restaurante"}()})();
