@@ -45,7 +45,7 @@ function menu() {
         div.appendChild(dishDescription);
         div.appendChild(dishPrice);
 
-        return div
+        return section.appendChild(div)
     }
 
     const pratoUm = paragraphAbout('prato um', "descrição prato", 150);
