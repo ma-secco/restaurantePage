@@ -43,4 +43,4 @@ function contact() {
 
 }
 
-export { contato };
+export { contact };
