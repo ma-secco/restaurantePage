@@ -3,6 +3,7 @@ const contentDiv = document.querySelector('#content')
 const functionPage = () => {
 
     const aboutSection = about()
+    return contentDiv.appendChild(aboutSection)
 }
 
 function about () {
