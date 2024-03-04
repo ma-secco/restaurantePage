@@ -63,7 +63,7 @@ function contact() {
     section.appendChild(titleContact);
 
     const paragraphContact = document.createElement('p');
-    paragraphAbout.innerText = "Entre em contato conosco";
+    paragraphContact.innerText = "Entre em contato conosco";
     section.appendChild(paragraphContact);
 
     const contactList = document.createElement('ul');
