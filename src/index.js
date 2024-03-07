@@ -9,6 +9,8 @@ import {contact } from './contato.js';
 
 const contentDiv = document.querySelector('#content');
 
+about()
+
 const homeButton = document.querySelector("#home");
 const menuButton = document.querySelector("#menu");
 const contactButton = document.querySelector("#contact");
