@@ -7,3 +7,10 @@ import {about} from './firstpage.js';
 import {menu} from './menu.js';
 import {contact } from './contato.js';
 
+
+const homeButton = document.querySelector("#home");
+const menuButton = document.querySelector("#menu");
+const contactButton = document.querySelector("#contact");
+
+
+homeButton.addEventListener('click', )
